@@ -1,19 +1,50 @@
-.icon{
-    color: rgb(17, 15, 15);
+.icon1{
+    color: rgb(19, 17, 17);
     font-size: 30px;
 }
-body{
-    background: #5c7174; 
+.icon2{
+   color: rgb(17, 16, 16);
+   font-size: 30px;
 }
+body{
+   background: #e3e4dc; background: -webkit-linear-gradient(to right, #e5eaeb, #5c5153); background: linear-gradient(to right, #7c26b9, #edf0e7);
+   background: border-box rgb(143, 70, 131);
+}
+
 .grid{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-gap: 15px;
+   grid-gap: 12px;
+   margin-top: 80px ;
+   width: 500px;
+   margin-left: 50px;
 }
 .box{
-  width: auto;
-  height: 100px;
-  display: flex;
-  justify-content:center;
-  align-items:center;
+   width: auto;
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background: border-box rgb(161, 205, 212);
+
+}
+.card{
+   width: auto;
+}
+.label{
+   color: rgb(105, 59, 99);
+   background-color: rgb(107, 61, 107);
+   margin-left: 40px;
+   text-align: center;
+}
+.msg{
+   text-align: center;
+}
+.btn{
+   margin-left: 30px;
+   background-color: rgb(237, 244, 245);
+}
+.button{
+   margin-top: 30px;
+   background-color: rgb(227, 237, 238);
 }
